@@ -18,13 +18,13 @@ This app was created as a personal project in conjunction with [Angela Yu's Comp
 - Use this to settle arguments, assign chores, make a decision - the possibilities are endless!
 
 
-### Bugs/Updates to be made - I am always open to comments and guidance on how to solve these!
+## Bugs/Updates to be made - I am always open to comments and guidance on how to solve these!
 
 - [ ] Add more React components to stop instructions from rendering on screen load
 
 ## Tech Used / Dependencies
 
-- This is vanilla JS App.
+- This app was created with vanilla JS.
 
 - Color inspiration from: [Color Hunt](https://colorhunt.co/)
 
