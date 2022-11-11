@@ -1,5 +1,6 @@
 # Dicee Game
-![dicee game](https://user-images.githubusercontent.com/102535399/199249472-a1955ea4-f5eb-4290-b0e9-096279686e29.png)
+
+![diceegif](https://user-images.githubusercontent.com/102535399/201369820-85d7170b-9391-402d-8f3e-8defea390af1.gif)
 
 ## Overview
 
