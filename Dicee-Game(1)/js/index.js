@@ -1,24 +1,12 @@
-let playButton = document.querySelector(".btn");
-let instructions = document.querySelector(".alert");
+let instructionsList = new Instructions('directions');
 let instructionsBtn = document.querySelector(".nav-item");
 let background = document.querySelector("main");
 let winnerText = document.querySelector('h1');
+let instructionsSec = document.querySelector('#alert');
 
-// On Load
-window.addEventListener('load', function(){
-  instructions.hidden = true;
-});
-
-// Hide and Show Instructions
-playButton.addEventListener('click', function(){
-  instructions.hidden = true;
-  background.style.filter = 'none';
-});
-instructionsBtn.addEventListener('click', function(){
-  instructions.hidden= false;
-  background.style.filter = 'blur(4px)';
-});
-
+// window.addEventListener('load', function(){
+//   instructionsSec.hidden = true;
+// });
 
 // Dice 1
 let randomNumber1 = Math.floor(Math.random() * 6 +1);//random number
@@ -49,3 +37,18 @@ function getWinner(){
   }
 };
 getWinner();
+
+// Hide and Show Instructions
+
+
+
+instructionsSec.addEventListener('click', (event) => {
+  if (event.target.classList.contains('play-btn')) {
+    instructionsList.hide();
+  }
+});
+instructionsBtn.addEventListener('click', (event) => {
+  instructionsList.render();
+});
+
+
