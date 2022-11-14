@@ -6,7 +6,7 @@
 
 This app was created as a personal project in conjunction with [Angela Yu's Complete 2022 Web Developer Course](https://www.udemy.com/course/the-complete-web-development-bootcamp/).
 
-#### LIVE LINK : https://dicee-game.jaidataylor.tech/#
+#### LIVE LINK : https://jtaylor1204.github.io/Dicee-Game/#
 
 ## Features
 
